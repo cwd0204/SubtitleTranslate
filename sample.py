@@ -1,10 +1,10 @@
 from utils import translate_and_compose
 
-input_file = "sample.en.srt"
+input_file = "How to Get Food in the Coldest Village on Earth, Yakutia [LNHMzNE0h8k].en.vtt"
 
 # Translate the subtitle into Chinese, save both English and Chinese to the output srt file
 # translate_and_compose(input_file, output_file, src_lang, target_lang, encoding='UTF-8', mode='split', both=True, space=False)
-translate_and_compose(input_file, 'sample_en_cn_both.srt', 'en', 'zh-CN')
+translate_and_compose(input_file, 'how_to_get_food_en_cn_both.srt', 'en', 'zh-CN')
 # translate_and_compose(input_file, 'sample_en_cn_both.srt', 'en', 'zh-CN', encoding='UTF-8-sig')
 
 
